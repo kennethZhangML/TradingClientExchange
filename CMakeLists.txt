@@ -5,6 +5,8 @@ project(TradingClientExchange LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS  OFF)
+set(CMAKE_AUTOMOC ON)
+find_package(Qt6 COMPONENTS Widgets REQUIRED)
 if (MSVC)
     add_compile_options(/W4 /permissive-)
 else()
@@ -56,3 +58,6 @@ add_test(
             ${CMAKE_SOURCE_DIR}/tests/test_python_wrapper.py
     WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
 )
+
+
+target_link_libraries(TradingClientExchange PRIVATE Qt6::Widgets)
