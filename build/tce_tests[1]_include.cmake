@@ -1,0 +1,5 @@
+if(EXISTS "/Users/kennethzhang/Desktop/TradingClientExchange/build/tce_tests[1]_tests.cmake")
+  include("/Users/kennethzhang/Desktop/TradingClientExchange/build/tce_tests[1]_tests.cmake")
+else()
+  add_test(tce_tests_NOT_BUILT tce_tests_NOT_BUILT)
+endif()

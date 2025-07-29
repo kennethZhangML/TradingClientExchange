@@ -1,0 +1,6 @@
+/Users/kennethzhang/Desktop/TradingClientExchange/build/CMakeFiles/tce_core.dir
+/Users/kennethzhang/Desktop/TradingClientExchange/build/CMakeFiles/TradingClientExchange.dir
+/Users/kennethzhang/Desktop/TradingClientExchange/build/CMakeFiles/tce_tests.dir
+/Users/kennethzhang/Desktop/TradingClientExchange/build/CMakeFiles/test.dir
+/Users/kennethzhang/Desktop/TradingClientExchange/build/CMakeFiles/edit_cache.dir
+/Users/kennethzhang/Desktop/TradingClientExchange/build/CMakeFiles/rebuild_cache.dir
