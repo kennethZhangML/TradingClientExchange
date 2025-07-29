@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/kennethzhang/Desktop/TradingClientExchange/build/TradingClientExchange_autogen/mocs_compilation.cpp" "CMakeFiles/TradingClientExchange.dir/TradingClientExchange_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/TradingClientExchange.dir/TradingClientExchange_autogen/mocs_compilation.cpp.o.d"
   "/Users/kennethzhang/Desktop/TradingClientExchange/src/main.cpp" "CMakeFiles/TradingClientExchange.dir/src/main.cpp.o" "gcc" "CMakeFiles/TradingClientExchange.dir/src/main.cpp.o.d"
   )
 

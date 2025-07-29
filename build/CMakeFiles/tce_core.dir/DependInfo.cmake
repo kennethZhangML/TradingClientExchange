@@ -14,6 +14,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/kennethzhang/Desktop/TradingClientExchange/src/OrderBook.cpp" "CMakeFiles/tce_core.dir/src/OrderBook.cpp.o" "gcc" "CMakeFiles/tce_core.dir/src/OrderBook.cpp.o.d"
   "/Users/kennethzhang/Desktop/TradingClientExchange/src/api_c.cpp" "CMakeFiles/tce_core.dir/src/api_c.cpp.o" "gcc" "CMakeFiles/tce_core.dir/src/api_c.cpp.o.d"
   "/Users/kennethzhang/Desktop/TradingClientExchange/src/utils/Logger.cpp" "CMakeFiles/tce_core.dir/src/utils/Logger.cpp.o" "gcc" "CMakeFiles/tce_core.dir/src/utils/Logger.cpp.o.d"
+  "/Users/kennethzhang/Desktop/TradingClientExchange/build/tce_core_autogen/mocs_compilation.cpp" "CMakeFiles/tce_core.dir/tce_core_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/tce_core.dir/tce_core_autogen/mocs_compilation.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

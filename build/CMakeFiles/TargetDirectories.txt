@@ -4,3 +4,9 @@
 /Users/kennethzhang/Desktop/TradingClientExchange/build/CMakeFiles/test.dir
 /Users/kennethzhang/Desktop/TradingClientExchange/build/CMakeFiles/edit_cache.dir
 /Users/kennethzhang/Desktop/TradingClientExchange/build/CMakeFiles/rebuild_cache.dir
+/Users/kennethzhang/Desktop/TradingClientExchange/build/CMakeFiles/tce_core_autogen_timestamp_deps.dir
+/Users/kennethzhang/Desktop/TradingClientExchange/build/CMakeFiles/tce_core_autogen.dir
+/Users/kennethzhang/Desktop/TradingClientExchange/build/CMakeFiles/TradingClientExchange_autogen_timestamp_deps.dir
+/Users/kennethzhang/Desktop/TradingClientExchange/build/CMakeFiles/TradingClientExchange_autogen.dir
+/Users/kennethzhang/Desktop/TradingClientExchange/build/CMakeFiles/tce_tests_autogen_timestamp_deps.dir
+/Users/kennethzhang/Desktop/TradingClientExchange/build/CMakeFiles/tce_tests_autogen.dir

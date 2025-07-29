@@ -4,7 +4,7 @@
 # compile CXX with /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
 CXX_DEFINES = -Dtce_core_EXPORTS
 
-CXX_INCLUDES = -I/Users/kennethzhang/Desktop/TradingClientExchange/include -I/Users/kennethzhang/Desktop/TradingClientExchange/src
+CXX_INCLUDES = -I/Users/kennethzhang/Desktop/TradingClientExchange/build/tce_core_autogen/include -I/Users/kennethzhang/Desktop/TradingClientExchange/include -I/Users/kennethzhang/Desktop/TradingClientExchange/src
 
 CXX_FLAGSarm64 = -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fPIC -Wall -Wextra -pedantic
 

@@ -1,4 +1,7 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/tce_core_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/tce_core_autogen.dir/ParseCache.txt"
+  "tce_core_autogen"
   "CMakeFiles/tce_core.dir/src/EngineRunner.cpp.o"
   "CMakeFiles/tce_core.dir/src/EngineRunner.cpp.o.d"
   "CMakeFiles/tce_core.dir/src/ExecutionEngine.cpp.o"
@@ -11,6 +14,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/tce_core.dir/src/api_c.cpp.o.d"
   "CMakeFiles/tce_core.dir/src/utils/Logger.cpp.o"
   "CMakeFiles/tce_core.dir/src/utils/Logger.cpp.o.d"
+  "CMakeFiles/tce_core.dir/tce_core_autogen/mocs_compilation.cpp.o"
+  "CMakeFiles/tce_core.dir/tce_core_autogen/mocs_compilation.cpp.o.d"
   "libtce_core.dylib"
   "libtce_core.pdb"
 )

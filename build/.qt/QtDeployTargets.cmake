@@ -1,0 +1,6 @@
+set(__QT_DEPLOY_TARGET_tce_core_FILE /Users/kennethzhang/Desktop/TradingClientExchange/build/libtce_core.dylib)
+set(__QT_DEPLOY_TARGET_tce_core_TYPE SHARED_LIBRARY)
+set(__QT_DEPLOY_TARGET_TradingClientExchange_FILE /Users/kennethzhang/Desktop/TradingClientExchange/build/TradingClientExchange)
+set(__QT_DEPLOY_TARGET_TradingClientExchange_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_tce_tests_FILE /Users/kennethzhang/Desktop/TradingClientExchange/build/tce_tests)
+set(__QT_DEPLOY_TARGET_tce_tests_TYPE EXECUTABLE)

@@ -69,10 +69,24 @@ include CMakeFiles/TradingClientExchange.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/TradingClientExchange.dir/flags.make
 
+CMakeFiles/TradingClientExchange.dir/TradingClientExchange_autogen/mocs_compilation.cpp.o: CMakeFiles/TradingClientExchange.dir/flags.make
+CMakeFiles/TradingClientExchange.dir/TradingClientExchange_autogen/mocs_compilation.cpp.o: TradingClientExchange_autogen/mocs_compilation.cpp
+CMakeFiles/TradingClientExchange.dir/TradingClientExchange_autogen/mocs_compilation.cpp.o: CMakeFiles/TradingClientExchange.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kennethzhang/Desktop/TradingClientExchange/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TradingClientExchange.dir/TradingClientExchange_autogen/mocs_compilation.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TradingClientExchange.dir/TradingClientExchange_autogen/mocs_compilation.cpp.o -MF CMakeFiles/TradingClientExchange.dir/TradingClientExchange_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/TradingClientExchange.dir/TradingClientExchange_autogen/mocs_compilation.cpp.o -c /Users/kennethzhang/Desktop/TradingClientExchange/build/TradingClientExchange_autogen/mocs_compilation.cpp
+
+CMakeFiles/TradingClientExchange.dir/TradingClientExchange_autogen/mocs_compilation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TradingClientExchange.dir/TradingClientExchange_autogen/mocs_compilation.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kennethzhang/Desktop/TradingClientExchange/build/TradingClientExchange_autogen/mocs_compilation.cpp > CMakeFiles/TradingClientExchange.dir/TradingClientExchange_autogen/mocs_compilation.cpp.i
+
+CMakeFiles/TradingClientExchange.dir/TradingClientExchange_autogen/mocs_compilation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TradingClientExchange.dir/TradingClientExchange_autogen/mocs_compilation.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kennethzhang/Desktop/TradingClientExchange/build/TradingClientExchange_autogen/mocs_compilation.cpp -o CMakeFiles/TradingClientExchange.dir/TradingClientExchange_autogen/mocs_compilation.cpp.s
+
 CMakeFiles/TradingClientExchange.dir/src/main.cpp.o: CMakeFiles/TradingClientExchange.dir/flags.make
 CMakeFiles/TradingClientExchange.dir/src/main.cpp.o: /Users/kennethzhang/Desktop/TradingClientExchange/src/main.cpp
 CMakeFiles/TradingClientExchange.dir/src/main.cpp.o: CMakeFiles/TradingClientExchange.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kennethzhang/Desktop/TradingClientExchange/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TradingClientExchange.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kennethzhang/Desktop/TradingClientExchange/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TradingClientExchange.dir/src/main.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TradingClientExchange.dir/src/main.cpp.o -MF CMakeFiles/TradingClientExchange.dir/src/main.cpp.o.d -o CMakeFiles/TradingClientExchange.dir/src/main.cpp.o -c /Users/kennethzhang/Desktop/TradingClientExchange/src/main.cpp
 
 CMakeFiles/TradingClientExchange.dir/src/main.cpp.i: cmake_force
@@ -85,16 +99,21 @@ CMakeFiles/TradingClientExchange.dir/src/main.cpp.s: cmake_force
 
 # Object files for target TradingClientExchange
 TradingClientExchange_OBJECTS = \
+"CMakeFiles/TradingClientExchange.dir/TradingClientExchange_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/TradingClientExchange.dir/src/main.cpp.o"
 
 # External object files for target TradingClientExchange
 TradingClientExchange_EXTERNAL_OBJECTS =
 
+TradingClientExchange: CMakeFiles/TradingClientExchange.dir/TradingClientExchange_autogen/mocs_compilation.cpp.o
 TradingClientExchange: CMakeFiles/TradingClientExchange.dir/src/main.cpp.o
 TradingClientExchange: CMakeFiles/TradingClientExchange.dir/build.make
 TradingClientExchange: libtce_core.dylib
+TradingClientExchange: /opt/homebrew/lib/QtWidgets.framework/Versions/A/QtWidgets
+TradingClientExchange: /opt/homebrew/lib/QtGui.framework/Versions/A/QtGui
+TradingClientExchange: /opt/homebrew/lib/QtCore.framework/Versions/A/QtCore
 TradingClientExchange: CMakeFiles/TradingClientExchange.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/kennethzhang/Desktop/TradingClientExchange/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable TradingClientExchange"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/kennethzhang/Desktop/TradingClientExchange/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable TradingClientExchange"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TradingClientExchange.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

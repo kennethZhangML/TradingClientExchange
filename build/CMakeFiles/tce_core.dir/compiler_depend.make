@@ -3436,6 +3436,10 @@ CMakeFiles/tce_core.dir/src/api_c.cpp.o: /Users/kennethzhang/Desktop/TradingClie
 
 CMakeFiles/tce_core.dir/src/utils/Logger.cpp.o: /Users/kennethzhang/Desktop/TradingClientExchange/src/utils/Logger.cpp
 
+CMakeFiles/tce_core.dir/tce_core_autogen/mocs_compilation.cpp.o: tce_core_autogen/mocs_compilation.cpp
+
+
+tce_core_autogen/mocs_compilation.cpp:
 
 /Users/kennethzhang/Desktop/TradingClientExchange/src/utils/Logger.cpp:
 

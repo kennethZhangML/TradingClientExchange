@@ -165,6 +165,108 @@ tce_tests/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tce_tests.dir/build.make CMakeFiles/tce_tests.dir/build
 .PHONY : tce_tests/fast
 
+#=============================================================================
+# Target rules for targets named tce_core_autogen_timestamp_deps
+
+# Build rule for target.
+tce_core_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tce_core_autogen_timestamp_deps
+.PHONY : tce_core_autogen_timestamp_deps
+
+# fast build rule for target.
+tce_core_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tce_core_autogen_timestamp_deps.dir/build.make CMakeFiles/tce_core_autogen_timestamp_deps.dir/build
+.PHONY : tce_core_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named tce_core_autogen
+
+# Build rule for target.
+tce_core_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tce_core_autogen
+.PHONY : tce_core_autogen
+
+# fast build rule for target.
+tce_core_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tce_core_autogen.dir/build.make CMakeFiles/tce_core_autogen.dir/build
+.PHONY : tce_core_autogen/fast
+
+#=============================================================================
+# Target rules for targets named TradingClientExchange_autogen_timestamp_deps
+
+# Build rule for target.
+TradingClientExchange_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TradingClientExchange_autogen_timestamp_deps
+.PHONY : TradingClientExchange_autogen_timestamp_deps
+
+# fast build rule for target.
+TradingClientExchange_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TradingClientExchange_autogen_timestamp_deps.dir/build.make CMakeFiles/TradingClientExchange_autogen_timestamp_deps.dir/build
+.PHONY : TradingClientExchange_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named TradingClientExchange_autogen
+
+# Build rule for target.
+TradingClientExchange_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TradingClientExchange_autogen
+.PHONY : TradingClientExchange_autogen
+
+# fast build rule for target.
+TradingClientExchange_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TradingClientExchange_autogen.dir/build.make CMakeFiles/TradingClientExchange_autogen.dir/build
+.PHONY : TradingClientExchange_autogen/fast
+
+#=============================================================================
+# Target rules for targets named tce_tests_autogen_timestamp_deps
+
+# Build rule for target.
+tce_tests_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tce_tests_autogen_timestamp_deps
+.PHONY : tce_tests_autogen_timestamp_deps
+
+# fast build rule for target.
+tce_tests_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tce_tests_autogen_timestamp_deps.dir/build.make CMakeFiles/tce_tests_autogen_timestamp_deps.dir/build
+.PHONY : tce_tests_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named tce_tests_autogen
+
+# Build rule for target.
+tce_tests_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tce_tests_autogen
+.PHONY : tce_tests_autogen
+
+# fast build rule for target.
+tce_tests_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tce_tests_autogen.dir/build.make CMakeFiles/tce_tests_autogen.dir/build
+.PHONY : tce_tests_autogen/fast
+
+TradingClientExchange_autogen/mocs_compilation.o: TradingClientExchange_autogen/mocs_compilation.cpp.o
+.PHONY : TradingClientExchange_autogen/mocs_compilation.o
+
+# target to build an object file
+TradingClientExchange_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TradingClientExchange.dir/build.make CMakeFiles/TradingClientExchange.dir/TradingClientExchange_autogen/mocs_compilation.cpp.o
+.PHONY : TradingClientExchange_autogen/mocs_compilation.cpp.o
+
+TradingClientExchange_autogen/mocs_compilation.i: TradingClientExchange_autogen/mocs_compilation.cpp.i
+.PHONY : TradingClientExchange_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+TradingClientExchange_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TradingClientExchange.dir/build.make CMakeFiles/TradingClientExchange.dir/TradingClientExchange_autogen/mocs_compilation.cpp.i
+.PHONY : TradingClientExchange_autogen/mocs_compilation.cpp.i
+
+TradingClientExchange_autogen/mocs_compilation.s: TradingClientExchange_autogen/mocs_compilation.cpp.s
+.PHONY : TradingClientExchange_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+TradingClientExchange_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TradingClientExchange.dir/build.make CMakeFiles/TradingClientExchange.dir/TradingClientExchange_autogen/mocs_compilation.cpp.s
+.PHONY : TradingClientExchange_autogen/mocs_compilation.cpp.s
+
 src/EngineRunner.o: src/EngineRunner.cpp.o
 .PHONY : src/EngineRunner.o
 
@@ -333,6 +435,54 @@ src/utils/Logger.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tce_core.dir/build.make CMakeFiles/tce_core.dir/src/utils/Logger.cpp.s
 .PHONY : src/utils/Logger.cpp.s
 
+tce_core_autogen/mocs_compilation.o: tce_core_autogen/mocs_compilation.cpp.o
+.PHONY : tce_core_autogen/mocs_compilation.o
+
+# target to build an object file
+tce_core_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tce_core.dir/build.make CMakeFiles/tce_core.dir/tce_core_autogen/mocs_compilation.cpp.o
+.PHONY : tce_core_autogen/mocs_compilation.cpp.o
+
+tce_core_autogen/mocs_compilation.i: tce_core_autogen/mocs_compilation.cpp.i
+.PHONY : tce_core_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+tce_core_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tce_core.dir/build.make CMakeFiles/tce_core.dir/tce_core_autogen/mocs_compilation.cpp.i
+.PHONY : tce_core_autogen/mocs_compilation.cpp.i
+
+tce_core_autogen/mocs_compilation.s: tce_core_autogen/mocs_compilation.cpp.s
+.PHONY : tce_core_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+tce_core_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tce_core.dir/build.make CMakeFiles/tce_core.dir/tce_core_autogen/mocs_compilation.cpp.s
+.PHONY : tce_core_autogen/mocs_compilation.cpp.s
+
+tce_tests_autogen/mocs_compilation.o: tce_tests_autogen/mocs_compilation.cpp.o
+.PHONY : tce_tests_autogen/mocs_compilation.o
+
+# target to build an object file
+tce_tests_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tce_tests.dir/build.make CMakeFiles/tce_tests.dir/tce_tests_autogen/mocs_compilation.cpp.o
+.PHONY : tce_tests_autogen/mocs_compilation.cpp.o
+
+tce_tests_autogen/mocs_compilation.i: tce_tests_autogen/mocs_compilation.cpp.i
+.PHONY : tce_tests_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+tce_tests_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tce_tests.dir/build.make CMakeFiles/tce_tests.dir/tce_tests_autogen/mocs_compilation.cpp.i
+.PHONY : tce_tests_autogen/mocs_compilation.cpp.i
+
+tce_tests_autogen/mocs_compilation.s: tce_tests_autogen/mocs_compilation.cpp.s
+.PHONY : tce_tests_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+tce_tests_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tce_tests.dir/build.make CMakeFiles/tce_tests.dir/tce_tests_autogen/mocs_compilation.cpp.s
+.PHONY : tce_tests_autogen/mocs_compilation.cpp.s
+
 tests/EngineRunnerTests.o: tests/EngineRunnerTests.cpp.o
 .PHONY : tests/EngineRunnerTests.o
 
@@ -438,9 +588,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... TradingClientExchange_autogen"
+	@echo "... TradingClientExchange_autogen_timestamp_deps"
+	@echo "... tce_core_autogen"
+	@echo "... tce_core_autogen_timestamp_deps"
+	@echo "... tce_tests_autogen"
+	@echo "... tce_tests_autogen_timestamp_deps"
 	@echo "... TradingClientExchange"
 	@echo "... tce_core"
 	@echo "... tce_tests"
+	@echo "... TradingClientExchange_autogen/mocs_compilation.o"
+	@echo "... TradingClientExchange_autogen/mocs_compilation.i"
+	@echo "... TradingClientExchange_autogen/mocs_compilation.s"
 	@echo "... src/EngineRunner.o"
 	@echo "... src/EngineRunner.i"
 	@echo "... src/EngineRunner.s"
@@ -462,6 +621,12 @@ help:
 	@echo "... src/utils/Logger.o"
 	@echo "... src/utils/Logger.i"
 	@echo "... src/utils/Logger.s"
+	@echo "... tce_core_autogen/mocs_compilation.o"
+	@echo "... tce_core_autogen/mocs_compilation.i"
+	@echo "... tce_core_autogen/mocs_compilation.s"
+	@echo "... tce_tests_autogen/mocs_compilation.o"
+	@echo "... tce_tests_autogen/mocs_compilation.i"
+	@echo "... tce_tests_autogen/mocs_compilation.s"
 	@echo "... tests/EngineRunnerTests.o"
 	@echo "... tests/EngineRunnerTests.i"
 	@echo "... tests/EngineRunnerTests.s"

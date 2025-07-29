@@ -1,4 +1,9 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/tce_tests_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/tce_tests_autogen.dir/ParseCache.txt"
+  "tce_tests_autogen"
+  "CMakeFiles/tce_tests.dir/tce_tests_autogen/mocs_compilation.cpp.o"
+  "CMakeFiles/tce_tests.dir/tce_tests_autogen/mocs_compilation.cpp.o.d"
   "CMakeFiles/tce_tests.dir/tests/EngineRunnerTests.cpp.o"
   "CMakeFiles/tce_tests.dir/tests/EngineRunnerTests.cpp.o.d"
   "CMakeFiles/tce_tests.dir/tests/ExecutionEngineTests.cpp.o"

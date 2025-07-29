@@ -244,3 +244,51 @@ events:
         
       exitCode: 0
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/kennethzhang/opt/miniconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Users/kennethzhang/opt/miniconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/qt/6.9.0/lib/cmake/Qt6/FindWrapAtomic.cmake:36 (check_cxx_source_compiles)"
+      - "/Users/kennethzhang/opt/miniconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/homebrew/Cellar/qt/6.9.0/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "/opt/homebrew/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:35 (_qt_internal_find_third_party_dependencies)"
+      - "/opt/homebrew/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:45 (include)"
+      - "/Users/kennethzhang/opt/miniconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/homebrew/Cellar/qt/6.9.0/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:137 (find_dependency)"
+      - "/opt/homebrew/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
+      - "/opt/homebrew/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
+      - "/opt/homebrew/lib/cmake/Qt6/Qt6Config.cmake:212 (find_package)"
+      - "CMakeLists.txt:9 (find_package)"
+    checks:
+      - "Performing Test HAVE_STDATOMIC"
+    directories:
+      source: "/Users/kennethzhang/Desktop/TradingClientExchange/build/CMakeFiles/CMakeScratch/TryCompile-4ESHJk"
+      binary: "/Users/kennethzhang/Desktop/TradingClientExchange/build/CMakeFiles/CMakeScratch/TryCompile-4ESHJk"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/opt/homebrew/Cellar/qt/6.9.0/lib/cmake/Qt6;/opt/homebrew/Cellar/qt/6.9.0/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/opt/homebrew/Cellar/qt/6.9.0/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "HAVE_STDATOMIC"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/kennethzhang/Desktop/TradingClientExchange/build/CMakeFiles/CMakeScratch/TryCompile-4ESHJk'
+        
+        Run Build Command(s): /Users/kennethzhang/opt/miniconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_452ab/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_452ab.dir/build.make CMakeFiles/cmTC_452ab.dir/build
+        Building CXX object CMakeFiles/cmTC_452ab.dir/src.cxx.o
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_STDATOMIC  -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -MD -MT CMakeFiles/cmTC_452ab.dir/src.cxx.o -MF CMakeFiles/cmTC_452ab.dir/src.cxx.o.d -o CMakeFiles/cmTC_452ab.dir/src.cxx.o -c /Users/kennethzhang/Desktop/TradingClientExchange/build/CMakeFiles/CMakeScratch/TryCompile-4ESHJk/src.cxx
+        Linking CXX executable cmTC_452ab
+        /Users/kennethzhang/opt/miniconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_452ab.dir/link.txt --verbose=1
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_452ab.dir/src.cxx.o -o cmTC_452ab 
+        
+      exitCode: 0
+...

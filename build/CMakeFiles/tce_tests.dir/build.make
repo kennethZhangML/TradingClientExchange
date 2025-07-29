@@ -69,10 +69,24 @@ include CMakeFiles/tce_tests.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/tce_tests.dir/flags.make
 
+CMakeFiles/tce_tests.dir/tce_tests_autogen/mocs_compilation.cpp.o: CMakeFiles/tce_tests.dir/flags.make
+CMakeFiles/tce_tests.dir/tce_tests_autogen/mocs_compilation.cpp.o: tce_tests_autogen/mocs_compilation.cpp
+CMakeFiles/tce_tests.dir/tce_tests_autogen/mocs_compilation.cpp.o: CMakeFiles/tce_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kennethzhang/Desktop/TradingClientExchange/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tce_tests.dir/tce_tests_autogen/mocs_compilation.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tce_tests.dir/tce_tests_autogen/mocs_compilation.cpp.o -MF CMakeFiles/tce_tests.dir/tce_tests_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/tce_tests.dir/tce_tests_autogen/mocs_compilation.cpp.o -c /Users/kennethzhang/Desktop/TradingClientExchange/build/tce_tests_autogen/mocs_compilation.cpp
+
+CMakeFiles/tce_tests.dir/tce_tests_autogen/mocs_compilation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tce_tests.dir/tce_tests_autogen/mocs_compilation.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kennethzhang/Desktop/TradingClientExchange/build/tce_tests_autogen/mocs_compilation.cpp > CMakeFiles/tce_tests.dir/tce_tests_autogen/mocs_compilation.cpp.i
+
+CMakeFiles/tce_tests.dir/tce_tests_autogen/mocs_compilation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tce_tests.dir/tce_tests_autogen/mocs_compilation.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kennethzhang/Desktop/TradingClientExchange/build/tce_tests_autogen/mocs_compilation.cpp -o CMakeFiles/tce_tests.dir/tce_tests_autogen/mocs_compilation.cpp.s
+
 CMakeFiles/tce_tests.dir/tests/OrderTests.cpp.o: CMakeFiles/tce_tests.dir/flags.make
 CMakeFiles/tce_tests.dir/tests/OrderTests.cpp.o: /Users/kennethzhang/Desktop/TradingClientExchange/tests/OrderTests.cpp
 CMakeFiles/tce_tests.dir/tests/OrderTests.cpp.o: CMakeFiles/tce_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kennethzhang/Desktop/TradingClientExchange/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tce_tests.dir/tests/OrderTests.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kennethzhang/Desktop/TradingClientExchange/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tce_tests.dir/tests/OrderTests.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tce_tests.dir/tests/OrderTests.cpp.o -MF CMakeFiles/tce_tests.dir/tests/OrderTests.cpp.o.d -o CMakeFiles/tce_tests.dir/tests/OrderTests.cpp.o -c /Users/kennethzhang/Desktop/TradingClientExchange/tests/OrderTests.cpp
 
 CMakeFiles/tce_tests.dir/tests/OrderTests.cpp.i: cmake_force
@@ -86,7 +100,7 @@ CMakeFiles/tce_tests.dir/tests/OrderTests.cpp.s: cmake_force
 CMakeFiles/tce_tests.dir/tests/OrderBookTests.cpp.o: CMakeFiles/tce_tests.dir/flags.make
 CMakeFiles/tce_tests.dir/tests/OrderBookTests.cpp.o: /Users/kennethzhang/Desktop/TradingClientExchange/tests/OrderBookTests.cpp
 CMakeFiles/tce_tests.dir/tests/OrderBookTests.cpp.o: CMakeFiles/tce_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kennethzhang/Desktop/TradingClientExchange/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tce_tests.dir/tests/OrderBookTests.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kennethzhang/Desktop/TradingClientExchange/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tce_tests.dir/tests/OrderBookTests.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tce_tests.dir/tests/OrderBookTests.cpp.o -MF CMakeFiles/tce_tests.dir/tests/OrderBookTests.cpp.o.d -o CMakeFiles/tce_tests.dir/tests/OrderBookTests.cpp.o -c /Users/kennethzhang/Desktop/TradingClientExchange/tests/OrderBookTests.cpp
 
 CMakeFiles/tce_tests.dir/tests/OrderBookTests.cpp.i: cmake_force
@@ -100,7 +114,7 @@ CMakeFiles/tce_tests.dir/tests/OrderBookTests.cpp.s: cmake_force
 CMakeFiles/tce_tests.dir/tests/ExecutionEngineTests.cpp.o: CMakeFiles/tce_tests.dir/flags.make
 CMakeFiles/tce_tests.dir/tests/ExecutionEngineTests.cpp.o: /Users/kennethzhang/Desktop/TradingClientExchange/tests/ExecutionEngineTests.cpp
 CMakeFiles/tce_tests.dir/tests/ExecutionEngineTests.cpp.o: CMakeFiles/tce_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kennethzhang/Desktop/TradingClientExchange/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tce_tests.dir/tests/ExecutionEngineTests.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kennethzhang/Desktop/TradingClientExchange/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/tce_tests.dir/tests/ExecutionEngineTests.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tce_tests.dir/tests/ExecutionEngineTests.cpp.o -MF CMakeFiles/tce_tests.dir/tests/ExecutionEngineTests.cpp.o.d -o CMakeFiles/tce_tests.dir/tests/ExecutionEngineTests.cpp.o -c /Users/kennethzhang/Desktop/TradingClientExchange/tests/ExecutionEngineTests.cpp
 
 CMakeFiles/tce_tests.dir/tests/ExecutionEngineTests.cpp.i: cmake_force
@@ -114,7 +128,7 @@ CMakeFiles/tce_tests.dir/tests/ExecutionEngineTests.cpp.s: cmake_force
 CMakeFiles/tce_tests.dir/tests/EngineRunnerTests.cpp.o: CMakeFiles/tce_tests.dir/flags.make
 CMakeFiles/tce_tests.dir/tests/EngineRunnerTests.cpp.o: /Users/kennethzhang/Desktop/TradingClientExchange/tests/EngineRunnerTests.cpp
 CMakeFiles/tce_tests.dir/tests/EngineRunnerTests.cpp.o: CMakeFiles/tce_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kennethzhang/Desktop/TradingClientExchange/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/tce_tests.dir/tests/EngineRunnerTests.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kennethzhang/Desktop/TradingClientExchange/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/tce_tests.dir/tests/EngineRunnerTests.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tce_tests.dir/tests/EngineRunnerTests.cpp.o -MF CMakeFiles/tce_tests.dir/tests/EngineRunnerTests.cpp.o.d -o CMakeFiles/tce_tests.dir/tests/EngineRunnerTests.cpp.o -c /Users/kennethzhang/Desktop/TradingClientExchange/tests/EngineRunnerTests.cpp
 
 CMakeFiles/tce_tests.dir/tests/EngineRunnerTests.cpp.i: cmake_force
@@ -127,6 +141,7 @@ CMakeFiles/tce_tests.dir/tests/EngineRunnerTests.cpp.s: cmake_force
 
 # Object files for target tce_tests
 tce_tests_OBJECTS = \
+"CMakeFiles/tce_tests.dir/tce_tests_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/tce_tests.dir/tests/OrderTests.cpp.o" \
 "CMakeFiles/tce_tests.dir/tests/OrderBookTests.cpp.o" \
 "CMakeFiles/tce_tests.dir/tests/ExecutionEngineTests.cpp.o" \
@@ -135,6 +150,7 @@ tce_tests_OBJECTS = \
 # External object files for target tce_tests
 tce_tests_EXTERNAL_OBJECTS =
 
+tce_tests: CMakeFiles/tce_tests.dir/tce_tests_autogen/mocs_compilation.cpp.o
 tce_tests: CMakeFiles/tce_tests.dir/tests/OrderTests.cpp.o
 tce_tests: CMakeFiles/tce_tests.dir/tests/OrderBookTests.cpp.o
 tce_tests: CMakeFiles/tce_tests.dir/tests/ExecutionEngineTests.cpp.o
@@ -145,7 +161,7 @@ tce_tests: /opt/homebrew/lib/libgtest.a
 tce_tests: /opt/homebrew/lib/libgtest_main.a
 tce_tests: /opt/homebrew/lib/libgtest.a
 tce_tests: CMakeFiles/tce_tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/kennethzhang/Desktop/TradingClientExchange/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable tce_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/kennethzhang/Desktop/TradingClientExchange/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable tce_tests"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tce_tests.dir/link.txt --verbose=$(VERBOSE)
 	/Users/kennethzhang/opt/miniconda3/lib/python3.9/site-packages/cmake/data/bin/cmake -D TEST_TARGET=tce_tests -D TEST_EXECUTABLE=/Users/kennethzhang/Desktop/TradingClientExchange/build/tce_tests -D TEST_EXECUTOR= -D TEST_WORKING_DIR=/Users/kennethzhang/Desktop/TradingClientExchange/build -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=tce_tests_TESTS -D CTEST_FILE=/Users/kennethzhang/Desktop/TradingClientExchange/build/tce_tests[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_XML_OUTPUT_DIR= -P /Users/kennethzhang/opt/miniconda3/lib/python3.9/site-packages/cmake/data/share/cmake-3.28/Modules/GoogleTestAddTests.cmake
 

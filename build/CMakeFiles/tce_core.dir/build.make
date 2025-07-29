@@ -69,10 +69,24 @@ include CMakeFiles/tce_core.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/tce_core.dir/flags.make
 
+CMakeFiles/tce_core.dir/tce_core_autogen/mocs_compilation.cpp.o: CMakeFiles/tce_core.dir/flags.make
+CMakeFiles/tce_core.dir/tce_core_autogen/mocs_compilation.cpp.o: tce_core_autogen/mocs_compilation.cpp
+CMakeFiles/tce_core.dir/tce_core_autogen/mocs_compilation.cpp.o: CMakeFiles/tce_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kennethzhang/Desktop/TradingClientExchange/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tce_core.dir/tce_core_autogen/mocs_compilation.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tce_core.dir/tce_core_autogen/mocs_compilation.cpp.o -MF CMakeFiles/tce_core.dir/tce_core_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/tce_core.dir/tce_core_autogen/mocs_compilation.cpp.o -c /Users/kennethzhang/Desktop/TradingClientExchange/build/tce_core_autogen/mocs_compilation.cpp
+
+CMakeFiles/tce_core.dir/tce_core_autogen/mocs_compilation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tce_core.dir/tce_core_autogen/mocs_compilation.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kennethzhang/Desktop/TradingClientExchange/build/tce_core_autogen/mocs_compilation.cpp > CMakeFiles/tce_core.dir/tce_core_autogen/mocs_compilation.cpp.i
+
+CMakeFiles/tce_core.dir/tce_core_autogen/mocs_compilation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tce_core.dir/tce_core_autogen/mocs_compilation.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kennethzhang/Desktop/TradingClientExchange/build/tce_core_autogen/mocs_compilation.cpp -o CMakeFiles/tce_core.dir/tce_core_autogen/mocs_compilation.cpp.s
+
 CMakeFiles/tce_core.dir/src/Order.cpp.o: CMakeFiles/tce_core.dir/flags.make
 CMakeFiles/tce_core.dir/src/Order.cpp.o: /Users/kennethzhang/Desktop/TradingClientExchange/src/Order.cpp
 CMakeFiles/tce_core.dir/src/Order.cpp.o: CMakeFiles/tce_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kennethzhang/Desktop/TradingClientExchange/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tce_core.dir/src/Order.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kennethzhang/Desktop/TradingClientExchange/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tce_core.dir/src/Order.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tce_core.dir/src/Order.cpp.o -MF CMakeFiles/tce_core.dir/src/Order.cpp.o.d -o CMakeFiles/tce_core.dir/src/Order.cpp.o -c /Users/kennethzhang/Desktop/TradingClientExchange/src/Order.cpp
 
 CMakeFiles/tce_core.dir/src/Order.cpp.i: cmake_force
@@ -86,7 +100,7 @@ CMakeFiles/tce_core.dir/src/Order.cpp.s: cmake_force
 CMakeFiles/tce_core.dir/src/OrderBook.cpp.o: CMakeFiles/tce_core.dir/flags.make
 CMakeFiles/tce_core.dir/src/OrderBook.cpp.o: /Users/kennethzhang/Desktop/TradingClientExchange/src/OrderBook.cpp
 CMakeFiles/tce_core.dir/src/OrderBook.cpp.o: CMakeFiles/tce_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kennethzhang/Desktop/TradingClientExchange/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tce_core.dir/src/OrderBook.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kennethzhang/Desktop/TradingClientExchange/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tce_core.dir/src/OrderBook.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tce_core.dir/src/OrderBook.cpp.o -MF CMakeFiles/tce_core.dir/src/OrderBook.cpp.o.d -o CMakeFiles/tce_core.dir/src/OrderBook.cpp.o -c /Users/kennethzhang/Desktop/TradingClientExchange/src/OrderBook.cpp
 
 CMakeFiles/tce_core.dir/src/OrderBook.cpp.i: cmake_force
@@ -100,7 +114,7 @@ CMakeFiles/tce_core.dir/src/OrderBook.cpp.s: cmake_force
 CMakeFiles/tce_core.dir/src/ExecutionEngine.cpp.o: CMakeFiles/tce_core.dir/flags.make
 CMakeFiles/tce_core.dir/src/ExecutionEngine.cpp.o: /Users/kennethzhang/Desktop/TradingClientExchange/src/ExecutionEngine.cpp
 CMakeFiles/tce_core.dir/src/ExecutionEngine.cpp.o: CMakeFiles/tce_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kennethzhang/Desktop/TradingClientExchange/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tce_core.dir/src/ExecutionEngine.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kennethzhang/Desktop/TradingClientExchange/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/tce_core.dir/src/ExecutionEngine.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tce_core.dir/src/ExecutionEngine.cpp.o -MF CMakeFiles/tce_core.dir/src/ExecutionEngine.cpp.o.d -o CMakeFiles/tce_core.dir/src/ExecutionEngine.cpp.o -c /Users/kennethzhang/Desktop/TradingClientExchange/src/ExecutionEngine.cpp
 
 CMakeFiles/tce_core.dir/src/ExecutionEngine.cpp.i: cmake_force
@@ -114,7 +128,7 @@ CMakeFiles/tce_core.dir/src/ExecutionEngine.cpp.s: cmake_force
 CMakeFiles/tce_core.dir/src/EngineRunner.cpp.o: CMakeFiles/tce_core.dir/flags.make
 CMakeFiles/tce_core.dir/src/EngineRunner.cpp.o: /Users/kennethzhang/Desktop/TradingClientExchange/src/EngineRunner.cpp
 CMakeFiles/tce_core.dir/src/EngineRunner.cpp.o: CMakeFiles/tce_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kennethzhang/Desktop/TradingClientExchange/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/tce_core.dir/src/EngineRunner.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kennethzhang/Desktop/TradingClientExchange/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/tce_core.dir/src/EngineRunner.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tce_core.dir/src/EngineRunner.cpp.o -MF CMakeFiles/tce_core.dir/src/EngineRunner.cpp.o.d -o CMakeFiles/tce_core.dir/src/EngineRunner.cpp.o -c /Users/kennethzhang/Desktop/TradingClientExchange/src/EngineRunner.cpp
 
 CMakeFiles/tce_core.dir/src/EngineRunner.cpp.i: cmake_force
@@ -128,7 +142,7 @@ CMakeFiles/tce_core.dir/src/EngineRunner.cpp.s: cmake_force
 CMakeFiles/tce_core.dir/src/api_c.cpp.o: CMakeFiles/tce_core.dir/flags.make
 CMakeFiles/tce_core.dir/src/api_c.cpp.o: /Users/kennethzhang/Desktop/TradingClientExchange/src/api_c.cpp
 CMakeFiles/tce_core.dir/src/api_c.cpp.o: CMakeFiles/tce_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kennethzhang/Desktop/TradingClientExchange/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/tce_core.dir/src/api_c.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kennethzhang/Desktop/TradingClientExchange/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/tce_core.dir/src/api_c.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tce_core.dir/src/api_c.cpp.o -MF CMakeFiles/tce_core.dir/src/api_c.cpp.o.d -o CMakeFiles/tce_core.dir/src/api_c.cpp.o -c /Users/kennethzhang/Desktop/TradingClientExchange/src/api_c.cpp
 
 CMakeFiles/tce_core.dir/src/api_c.cpp.i: cmake_force
@@ -142,7 +156,7 @@ CMakeFiles/tce_core.dir/src/api_c.cpp.s: cmake_force
 CMakeFiles/tce_core.dir/src/utils/Logger.cpp.o: CMakeFiles/tce_core.dir/flags.make
 CMakeFiles/tce_core.dir/src/utils/Logger.cpp.o: /Users/kennethzhang/Desktop/TradingClientExchange/src/utils/Logger.cpp
 CMakeFiles/tce_core.dir/src/utils/Logger.cpp.o: CMakeFiles/tce_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kennethzhang/Desktop/TradingClientExchange/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/tce_core.dir/src/utils/Logger.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kennethzhang/Desktop/TradingClientExchange/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/tce_core.dir/src/utils/Logger.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tce_core.dir/src/utils/Logger.cpp.o -MF CMakeFiles/tce_core.dir/src/utils/Logger.cpp.o.d -o CMakeFiles/tce_core.dir/src/utils/Logger.cpp.o -c /Users/kennethzhang/Desktop/TradingClientExchange/src/utils/Logger.cpp
 
 CMakeFiles/tce_core.dir/src/utils/Logger.cpp.i: cmake_force
@@ -155,6 +169,7 @@ CMakeFiles/tce_core.dir/src/utils/Logger.cpp.s: cmake_force
 
 # Object files for target tce_core
 tce_core_OBJECTS = \
+"CMakeFiles/tce_core.dir/tce_core_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/tce_core.dir/src/Order.cpp.o" \
 "CMakeFiles/tce_core.dir/src/OrderBook.cpp.o" \
 "CMakeFiles/tce_core.dir/src/ExecutionEngine.cpp.o" \
@@ -165,6 +180,7 @@ tce_core_OBJECTS = \
 # External object files for target tce_core
 tce_core_EXTERNAL_OBJECTS =
 
+libtce_core.dylib: CMakeFiles/tce_core.dir/tce_core_autogen/mocs_compilation.cpp.o
 libtce_core.dylib: CMakeFiles/tce_core.dir/src/Order.cpp.o
 libtce_core.dylib: CMakeFiles/tce_core.dir/src/OrderBook.cpp.o
 libtce_core.dylib: CMakeFiles/tce_core.dir/src/ExecutionEngine.cpp.o
@@ -173,7 +189,7 @@ libtce_core.dylib: CMakeFiles/tce_core.dir/src/api_c.cpp.o
 libtce_core.dylib: CMakeFiles/tce_core.dir/src/utils/Logger.cpp.o
 libtce_core.dylib: CMakeFiles/tce_core.dir/build.make
 libtce_core.dylib: CMakeFiles/tce_core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/kennethzhang/Desktop/TradingClientExchange/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX shared library libtce_core.dylib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/kennethzhang/Desktop/TradingClientExchange/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX shared library libtce_core.dylib"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tce_core.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
